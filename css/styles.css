@@ -6748,7 +6748,7 @@ a.mapboxgl-ctrl-logo {
   padding: 0;
 }
 .section-contact.page-contact {
-  margin-top: -80px;
+  margin-top: 80px;
 }
 
 /*section-team 
@@ -7247,6 +7247,19 @@ input[value="theme-dark"] + label {
     padding-left: 46px;
   }
 }
+
+@media (min-width: 769px) {
+  .section-check-out .check-out-info {
+    padding-right: 45px;
+  }
+  .section-check-out .shop-cart-check-out {
+    padding-left: 46px;
+  }
+  .contact-img {
+    margin-left: 50px;
+  }
+}
+
 @media (max-width: 1440px) {
   .page-title-homepage-1 .page-video {
     height: 500px;

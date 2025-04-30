@@ -8450,4 +8450,21 @@ input[value="theme-dark"] + label {
   }
 }
 
+.homepage-main-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.homepage-main-image img {
+  width: 100% !important; /* se impone a cualquier otra regla */
+  height: auto !important; /* mantiene la proporción */
+  display: block; /* elimina espacios debajo de la img */
+  object-fit: cover;
+}
+
+@media (min-width: 767px) {
+  .homepage-main-image img {
+    height: 100% !important;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

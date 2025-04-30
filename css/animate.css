@@ -4,7 +4,6 @@ Primary style
 
 -------------------------------- */
 .animationtext {
-  
 }
 
 .cd-words-wrapper {
@@ -36,9 +35,6 @@ Primary style
 
 .cd-words-wrapper .item-text,
 .cd-words-wrapper .item-text i {
-
-
- 
 }
 
 /* -------------------------------- 
@@ -251,7 +247,7 @@ xtype
 
 .animationtext.type .cd-words-wrapper::after {
   /* vertical bar */
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 50%;
@@ -579,7 +575,7 @@ xloading-bar
 -------------------------------- */
 .animationtext.loading-bar span {
   display: inline-block;
-  padding: .2em 0;
+  padding: 0.2em 0;
 }
 
 .animationtext.loading-bar .cd-words-wrapper {
@@ -589,7 +585,7 @@ xloading-bar
 
 .animationtext.loading-bar .cd-words-wrapper::after {
   /* loading bar */
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -610,7 +606,7 @@ xloading-bar
 }
 
 .animationtext.loading-bar .item-text {
-  top: .2em;
+  top: 0.2em;
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
@@ -639,7 +635,7 @@ xslide
 
 .animationtext.slide .item-text {
   opacity: 0;
-  top: .2em;
+  top: 0.2em;
 }
 
 .animationtext.slide .item-text.is-visible {
@@ -799,7 +795,7 @@ xclip
 
 .animationtext.clip .cd-words-wrapper::after {
   /* line */
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -957,7 +953,11 @@ xrotate-3
   transform: rotateY(180deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 13.41%, rgba(255, 255, 255, 0) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.75) 13.41%,
+      rgba(255, 255, 255, 0) 100%
+    ),
     linear-gradient(180deg, #ffcb52 0%, #ff7b02 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1381,7 +1381,11 @@ xpush
 }
 
 .type-color-1 i {
-  background-image: linear-gradient(180deg, #ffffff 68.51%, rgb(39, 47, 121) 93%) !important;
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 68.51%,
+    rgb(39, 47, 121) 93%
+  ) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   -webkit-text-stroke: unset !important;
